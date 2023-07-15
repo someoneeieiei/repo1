@@ -1,0 +1,7 @@
+com\qf\web\controller\HelloController.class
+com\qf\service\RoleServiceImpl.class
+com\qf\web\controller\WordController.class
+com\qf\pojo\Role.class
+com\qf\dao\IRoleDao.class
+com\qf\QuickStarterApplication.class
+META-INF\spring-configuration-metadata.json

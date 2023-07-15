@@ -1,0 +1,43 @@
+#1.key=value形式
+server:
+  port: 3307
+  servlet:
+    context-path: /xiaowang
+uname: zhangsan
+
+#2.数组或单列集合
+scores: [10,20,30,40]
+list:
+  - 10,
+  - 20,
+  - 30
+
+#3.对象方式
+student:
+  name: zhishikeng
+  address: chengdu
+  age: 18
+
+person1: {name: haohao,age: 51,address: shanghai}
+
+#4.集合对象
+persons:
+  - username: zs
+    address: chengdu
+    age: 18
+  - username: ls
+    address: shanghai
+    age: 20
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/2304_ssm
+    type: com.alibaba.druid.pool.DruidDataSource
+  resources:
+    static-locations: classpath:/travel_manager
+mybatis:
+  type-aliases-package: com.qf.pojo
+  #mapper-locations: classpath:com.qf.dao/*dao.xml
